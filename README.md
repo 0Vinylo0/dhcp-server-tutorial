@@ -23,7 +23,7 @@ Utilizaremos una red con 2 subredes una con la net 192.168.1.0/24 y otra con la 
 
 ![topologiaRed](img/esquema_de_red.png)
 
-- [Configuracion DHCP](doc&nbsp;/configuracion-dhcp.md)
+- [Configuracion DHCP](doc/configuracion-dhcp.md)
 
 # Coniguracion de servidor DHCP
 
