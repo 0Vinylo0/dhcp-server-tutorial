@@ -1,5 +1,6 @@
 # DHCP server tutorial
 
+![funcionamiento](img/funcionamiento.png)
 
 El DHCP (Dynamic Host Configuration Protocol) es un protocolo de red que asigna automáticamente direcciones IP y otros parámetros de configuración a los dispositivos en una red. Esto simplifica la administración de la red, ya que evita la configuración manual de las IPs en cada dispositivo.
 
