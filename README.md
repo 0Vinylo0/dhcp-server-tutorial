@@ -3,6 +3,8 @@
 
 Utilizaremos una red con 2 subredes una con la net 192.168.1.0/24 y otra con la net 192.168.2.0/24
 
+![topologiaRed](img/esquema_de_red.png)
+
 ----------------------------------------------------------------------------------------------------------
 
 ## DCHP
