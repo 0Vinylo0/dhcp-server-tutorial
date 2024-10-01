@@ -22,3 +22,9 @@ El DHCP (Dynamic Host Configuration Protocol) es un protocolo de red que asigna 
 - Utilizaremos una red con 2 subredes una con la net 192.168.1.0/24 y otra con la net 192.168.2.0/24
 
 ![topologiaRed](img/esquema_de_red.png)
+
+### Coniguracion de servidor DHCP
+
+Para Configurar este servidor utilizare un debian 12 en virtualbox y utilizaremos dos redes interna para hacer esta estructura de red. Pero primero tendremos que tener internet para descargar lo necesario para levantar el dhcp siendo este 
+- isc-dhcp-server
+![isc-dhcp-server]()
