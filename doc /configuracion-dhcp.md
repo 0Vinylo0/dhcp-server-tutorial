@@ -1,7 +1,8 @@
 ### Coniguracion de servidor DHCP
 
 Para Configurar este servidor utilizare un debian 12 en virtualbox y utilizaremos dos redes interna para hacer esta estructura de red. Pero primero tendremos que tener internet para descargar lo necesario para levantar el dhcp siendo este.
- - isc-dhcp-server ''' apt install isc-dhcp-server '''
+ - isc-dhcp-server 'apt install isc-dhcp-server'
+   
 ![isc-dhcp-server](../img/isc-dhcp-server.png)
 
 *OMITIR EN CASOS REAL* Despues de instalar el paquete necesario para el servidor pondremos la red en modo red interna desde virtualbox.
@@ -12,7 +13,8 @@ Configuaremos el archivo "/etc/network/interface" para darle una ip statica y im
 ![net-dhcp-server](../img/conf-adpatador.png)
 
 Reiniciamos la red para que nos actualize nuetra configuracion. 
-- ''' $systemctl restart networking.service '''
+
+- '$systemctl restart networking.service'
 
 Este servicio de por si solo no iniciara dara fallo por que hay que idicarle algunos parametros en dos archivos de coniguracion que son 
 
@@ -26,6 +28,6 @@ Este servicio de por si solo no iniciara dara fallo por que hay que idicarle alg
 
 Luego reiniciamos el servicio de dhcp con el comando.
 
- - ''' $systemctl restart isc-dhcp-server.service '''
+ - '$systemctl restart isc-dhcp-server.service'
    
 Y ya deveria estar funcionado ahora mismo este servidor si le llegara una peticion discover ofreceria una ip.
