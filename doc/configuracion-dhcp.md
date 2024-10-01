@@ -18,13 +18,15 @@ Reiniciamos la red para que nos actualize nuetra configuracion.
 
 Este servicio de por si solo no iniciara dara fallo por que hay que idicarle algunos parametros en dos archivos de coniguracion que son 
 
- - "/etc/default/isc-dhcp-server" En este archivo lo dejaremos con las lineas descomentadas igual que en la imagen y a;adiremos nuestro nombre de adaptador de red en la liena que pone "INTERFACESv4=". Os dejo el archivo [a qui](../)
+ - "/etc/default/isc-dhcp-server" En este archivo lo dejaremos con las lineas descomentadas igual que en la imagen y a;adiremos nuestro nombre de adaptador de red en la liena que pone "INTERFACESv4=".
    
       ![conf1](../img/conf1.png)
    
- - "/etc/dhcp/dhcpd.conf" En este archivo es lo mas importante ya que en este pondremos como el servidor dhcp trabajara a si como las conseciones de ip que realizara os dejare como configuro el elachivo [a qui](../) y en la imagen.
+ - "/etc/dhcp/dhcpd.conf" En este archivo es lo mas importante ya que en este pondremos como el servidor dhcp trabajara a si como las conseciones de ip que realizara os dejare como configuro en la imagen.
    
     ![conf2](../img/conf2.png)
+
+[*Guia oficial*](https://kb.isc.org/docs/isc-dhcp-44-manual-pages-dhcpd)
 
 Luego reiniciamos el servicio de dhcp con el comando.
 
