@@ -1,4 +1,4 @@
-# DHCP server tutorial
+<h1 text-align="center"> DHCP server tutorial <h1>
 
 ![funcionamiento](img/funcionamiento.png)
 
