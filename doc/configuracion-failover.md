@@ -35,3 +35,5 @@ Como vemos en la catura solo cambian en la aprte del failover indicamos que es s
 ![configuracion-failover](../img/configuracion-failover.png)
 
 - Una vez todo configurado reiniciamos servicio con `$systemctl restart isc-dhcp-server.service`
+
+Y yaa estaria listo para usar
