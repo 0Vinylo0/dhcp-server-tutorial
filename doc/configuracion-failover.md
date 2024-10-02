@@ -12,4 +12,10 @@ Para configurar este servidor primero necesitamos ya creado un servidor DHCP, en
 
 - Configuramos el adaptador de red en statico con la ip 192.168.1.2 en el archivo "/etc/network/interface" y igual que en el DHCP normal tendremos qque poner una ruta paara llegar a la red 192.168.2.0/24
 
-![net-dhcp-failover]() 
+![net-dhcp-failover](../img/red-dhcp-failover.png)
+
+Una vez todo instalado y con la red configurada podremos empezar a configurar nuestro failover. La configuracion es muy parecida al DHCP normal consolo que hay que poner un par de parametros mas.
+
+- Empezaremos poniendo la configuracion del [DHCP primario](./configuracion-dhcp.md), en el archivo "/etc/dhcp/dhcpd.conf" podermos las siguientes opciones [*Guia oficial*](https://kb.isc.org/docs/isc-dhcp-44-manual-pages-dhcpd):
+
+![configuracion-dhcp-para-failover](../)
