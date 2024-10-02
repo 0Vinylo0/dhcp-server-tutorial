@@ -6,8 +6,10 @@ Para configuarar relay utilizaremos otra maquina debia y descargaremos el paquet
   
 ![instalar-raly](../img/instalar-relay.png)
 
-*OMITIR EN CASO REAL* haremos cambiaremos el adaptardor red interna y en este caso apagaremos la maquina para añadir otro adaptadro pero esta vez con otra red para el lado 
-del cliente que esta red tendra la net 192.168.2.0/24, importante que el adpatador del cliente este en modo promiscuo. *No hagan como yo poned add en el ip route*
+- *OMITIR EN CASO REAL* haremos cambiaremos el adaptardor red interna y en este caso apagaremos la maquina para añadir otro adaptadro pero esta vez con otra red para el lado 
+del cliente que esta red tendra la net 192.168.2.0/24, importante que el adpatador del cliente este en modo promiscuo.
+
+*No hagan como yo poned add en el ip route*
 `up ip route add "network" via "ip de salida" dev "adaptador por deonde sales"`
 
 ![adaptadores-relay](../img/adpatadores-relay.png)
