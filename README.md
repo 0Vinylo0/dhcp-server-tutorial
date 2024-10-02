@@ -17,11 +17,11 @@ El DHCP (Dynamic Host Configuration Protocol) es un protocolo de red que asigna 
 
 
 ----------------------------------------------------------------------------------------------------------
-
+<div align="center">
 ## Tutorial de como hacer un servidor dhcp con relay y failover
 
 Utilizaremos una red con 2 subredes una con la net 192.168.1.0/24 y otra con la net 192.168.2.0/24
-
+</div>
 ![topologiaRed](img/esquema_de_red.png)
 
 - [Configuracion DHCP](doc/configuracion-dhcp.md)
