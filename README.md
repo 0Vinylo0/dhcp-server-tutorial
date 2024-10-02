@@ -17,8 +17,9 @@ Utilizaremos una red con 2 subredes una con la net 192.168.1.0/24 y otra con la 
 
 - [Comprovaciones servers](dec/comprobacion-servers)
 
-----------------------------------------------------------------------------------------------------------
 
+  ## Que es un DHCP
+----------------------------------------------------------------------------------------------------------
 <div align="center">
 <img src="img/funcionamiento.png">
 </div>
