@@ -8,7 +8,9 @@ Para Configurar este servidor utilizare un debian 12 en virtualbox y utilizaremo
 *OMITIR EN CASOS REAL* Despues de instalar el paquete necesario para el servidor pondremos la red en modo red interna desde virtualbox.
 ![red-interna](../img/poner_red_en_interna.png)
 
-Configuaremos el archivo "/etc/network/interface" para darle una ip statica y importante un enrutado hacia la red que necesitamos en mi caso 192.168.2.0/24 *No hagan como yo poned add en el ip route*
+- Configuaremos el archivo "/etc/network/interface" para darle una ip statica y importante un enrutado hacia la red que necesitamos en mi caso 192.168.2.0/24 
+
+*No hagan como yo poned add en el ip route*
 `up ip route add "network" via "ip de salida" dev "adaptador por deonde sales"`
 
 ![net-dhcp-server](../img/conf-adpatador.png)
