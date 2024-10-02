@@ -18,4 +18,4 @@ Una vez todo instalado y con la red configurada podremos empezar a configurar nu
 
 - Empezaremos poniendo la configuracion del [DHCP primario](./configuracion-dhcp.md), en el archivo "/etc/dhcp/dhcpd.conf" podermos las siguientes opciones [*Guia oficial*](https://kb.isc.org/docs/isc-dhcp-44-manual-pages-dhcpd):
 
-![configuracion-dhcp-para-failover](../)
+![configuracion-dhcp-para-failover](../img/configuracion-dhcp-failover.png)
