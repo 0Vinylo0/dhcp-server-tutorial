@@ -1,5 +1,4 @@
 <h1 align="center"> DHCP server tutorial</h1>
-
 <div align="center">
 <h2>Tutorial de como hacer un servidor dhcp con relay y failover</h2>
 
