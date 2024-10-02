@@ -26,7 +26,7 @@ Ya teniendo el principal configurado hiremos al segundo que la configuracion es 
 
 - Empezaremos modificando el archivo "/etc/default/isc-dhcp-server" descomentando las lineas necessarias y añadiendo el adaptador de red.
 
-![conf1](img/conf1.png)
+![conf1](../img/conf1.png)
 
 - Luego ya configuraremos el archivo "/etc/dhcp/dhcpd.conf" del DHCP failover, que es muy parecido solo cambian pocas lineas.
 
