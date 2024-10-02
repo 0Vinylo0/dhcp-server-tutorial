@@ -32,6 +32,8 @@ Utilizaremos una red con 2 subredes una con la net 192.168.1.0/24 y otra con la 
 
 - [Configuracion Failover](doc/configuracion-failover.md)
 
+- Despues de hacer todo lo anterior si conectamos un cliente en red interna a la net del ralay de parte cliente el dhcp automaticamnte le deberia dar ip y si el servidor principal esta caido el failover deberia responder  
+
 <!-- - [Vista Cliente](doc/comprobacion-cliente.md) -->
 
 <!-- - [Comprobaciones Servers](dec/comprobacion-servers) -->
